@@ -113,7 +113,7 @@
 }
 /* our donate plan section */
 .donate-div{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,5 +134,73 @@
     text-align: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+/* three div section */
+.three-div{
+    margin-bottom: 60px;
+     height: 400px;
+     width: 1200px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+   
+}
+.sub-div1{
+     height: 340px;
+     width: 340px;
+     background-color: #cbf0ec;
+     border-radius: 6px;
+}
+.sub-div2{
+    height: 340px;
+    width: 340px;
+    background-color: #f5e2ea;
+    border-radius: 6px;
+}
+.sub-div3{
+    height: 340px;
+    width: 340px;
+    background-color: #fdc4ae;
+    border-radius: 8px;
+}
+/* icon section */
+.fa-bowl-rice{
+    font-size: 50px;
+    color: rgba(128, 122, 122, 0.952);
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.fa-people-group{
+    font-size: 50px;
+    color: rgb(10, 1, 1);
+    margin-top: 60px;
+    margin-left: 20px;
+    color: rgba(128, 122, 122, 0.952);
+}
+.fa-book-open-reader{
+    font-size: 50px;
+    color: rgb(10, 1, 1);
+    margin-top: 60px;
+    margin-left: 20px;
+    color: rgba(128, 122, 122, 0.952);
+}
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: grey;
 }
